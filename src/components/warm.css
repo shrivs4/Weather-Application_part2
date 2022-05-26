@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+}
+
+.background {
+  width: 100%;
+  background-image: url("https://photomorsels.files.wordpress.com/2014/01/warm-day-in-adelaide-002.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  border: 5px solid black;
+  border-radius: 80px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  height: 60%;
+  justify-content: center;
+  color: black;
+}
+
+.box input {
+  border: none;
+  border-radius: 90px;
+  width: 30%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.box h1 {
+  font-size: 50px;
+}
+
+.box h2 {
+  font-size: 40px;
+}
+
+.box h3 {
+  font-size: 20px;
+}
