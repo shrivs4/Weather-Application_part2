@@ -3,8 +3,8 @@ import "./cold.css";
 const Cold = (props) => {
   return (
     <>
-      <div className="background">
-        <div className="box">
+      <div className="backg">
+        <div className="bx">
           <input onChange={(e) => props.handleChane(e)} type="text" />
           <h1>
             <span role="img">🥶</span>

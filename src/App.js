@@ -9,7 +9,8 @@ export default function App() {
   const [temp, SetTemp] = useState(0);
 
   const handleChane = (e) => {
-    UpdateInput(e.target.value);
+    let val = e.target.value;
+    UpdateInput(val);
   };
 
   useEffect(() => {
